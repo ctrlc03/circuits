@@ -1,0 +1,26 @@
+{
+  "name": "poseidon-encryption",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "mocha -p -r ts-node/register"
+  },
+  "keywords": [
+    "circom"
+  ],
+  "author": "ctrlc03",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "chai": "^4.3.7",
+    "circom_tester": "^0.0.19",
+    "circomlib": "^2.0.5",
+    "ffjavascript": "^0.2.57",
+    "mocha": "^10.2.0",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
